@@ -185,6 +185,10 @@ a {
   align-items: center;
   padding-bottom: 94px;
 }
+.img-listteam {
+  width: 20px;
+  height: 20px;
+}
 
 h3 {
   color: #212121;
