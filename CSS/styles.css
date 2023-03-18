@@ -65,6 +65,7 @@ a {
 .container {
   width: 1200px;
   margin: 0 auto;
+  padding: 0.15px;
 }
 .nav-container {
   display: flex;
@@ -102,6 +103,19 @@ a {
   font-weight: 500;
   font-size: 14px;
 }
+.img-contacto-item {
+  position: absolute;
+  left: 70.75%;
+  top: 5.8%;
+  bottom: 98.43%;
+  background: #2196f3;
+}
+.img-contacto-item2 {
+  position: absolute;
+  left: 84.69%;
+  top: 5.15%;
+  bottom: 98.36%;
+}
 
 .contacto-item:hover {
   color: rgba(33, 150, 243, 1);
@@ -113,11 +127,15 @@ a {
 
 .seccion-principal {
   height: 600px;
-  background-color: #2f303a;
+  background: #2f303a url('../images/titulo.jpg');
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-size: contain;
+  background-position: left top;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .introduccion {
@@ -156,9 +174,9 @@ a {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  justify-content: space-evenly;
   align-items: center;
   padding-bottom: 94px;
+  column-gap: 30px;
 }
 .team-list {
   display: flex;
