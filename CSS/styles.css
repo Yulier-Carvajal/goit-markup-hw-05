@@ -185,9 +185,20 @@ a {
   align-items: center;
   padding-bottom: 94px;
 }
-.img-listteam {
+.icon-section {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  padding: 16px;
+}
+
+svg {
   width: 20px;
   height: 20px;
+  fill: red;
+}
+.icon-section {
+  cursor: pointer;
 }
 
 h3 {
