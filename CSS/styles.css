@@ -242,25 +242,6 @@ p {
   font-weight: 400;
   font-size: 16px;
 }
-/*
-.icon-section {
-  width: 60%;
-  display: flex;
-  justify-content: space-around;
-  padding: 16px;
-}
-.icon-section > svg path {
-  fill: var(--custom-dark);
-}
-
-svg {
-  width: 20px;
-  height: 20px;
-}
-.icon-section {
-  cursor: pointer;
-}
-*/
 .ubicacion {
   color: #ffffff;
 }
@@ -278,16 +259,28 @@ svg {
 .profesion-team {
   text-align: center;
 }
-.tipo-clientes {
-  width: 100%;
-  height: 328px;
-  text-align: center;
-  margin: auto;
-}
-.svg-clientes {
+.icon-section {
   width: 20px;
   height: 20px;
-  color: #afb1b8;
+  display: flex;
+  justify-content: space-around;
+  padding: 16px;
+}
+.icon-section > svg {
+  cursor: pointer;
+}
+.tipo-clientes {
+  display: flex;
+  padding: 20px;
+  padding-bottom: 50px;
+  justify-content: space-around;
+}
+
+.icon-clientes {
+  width: 170px;
+  height: 81px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 footer {
   background-color: #2f303a;
