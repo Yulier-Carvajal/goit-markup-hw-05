@@ -334,11 +334,14 @@ footer {
 .equipo {
   display: inline-block;
 }
-
+h4 {
+  color: #ffffff;
+  margin-left: 250px;
+  position: absolute;
+}
 .icon-footer {
   text-decoration: none;
-  position: absolute;
-  color: #ffffff;
+  display: flex;
   margin-left: 200px;
 }
 .icon-instagram-2-1 {
