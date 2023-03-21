@@ -340,9 +340,9 @@ h4 {
   position: absolute;
 }
 .icon-footer {
-  text-decoration: none;
   display: flex;
-  margin-left: 200px;
+  justify-content: space-around;
+  align-items: center;
 }
 .icon-instagram-2-1 {
   width: 30px;
