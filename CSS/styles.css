@@ -259,6 +259,10 @@ p {
 .profesion-team {
   text-align: center;
 }
+svg {
+  width: 50px;
+  height: 50px;
+}
 .icon-section {
   width: 20px;
   height: 20px;
@@ -329,6 +333,17 @@ footer {
 }
 .equipo {
   display: inline-block;
+}
+
+.icon-footer {
+  text-decoration: none;
+  position: absolute;
+  color: #ffffff;
+  margin-left: 200px;
+}
+.icon-instagram-2-1 {
+  width: 30px;
+  height: 30px;
 }
 
 /*Estilos portafolio*/
