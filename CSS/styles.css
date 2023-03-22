@@ -285,6 +285,7 @@ svg {
   height: 81px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  color: rgba(175, 177, 184, 1);
 }
 footer {
   background-color: #2f303a;
@@ -336,7 +337,7 @@ footer {
 }
 h4 {
   color: #ffffff;
-  margin-left: 250px;
+  left: 350px;
   position: absolute;
 }
 .icon-footer {
@@ -344,8 +345,8 @@ h4 {
   position: static;
   top: 100px;
   left: 150px;
-   justify-content: space-around;
-  align-items: center;
+  width: 20px;
+  height: 20px;
 }
 .icon-instagram-2-1 {
   width: 30px;
