@@ -273,6 +273,7 @@ svg {
 .icon-section > svg {
   cursor: pointer;
 }
+/*
 .tipo-clientes {
   display: flex;
   padding: 20px;
@@ -287,6 +288,7 @@ svg {
   border-radius: 4px;
   color: rgba(175, 177, 184, 1);
 }
+*/
 footer {
   background-color: #2f303a;
   height: 252px;
@@ -340,19 +342,14 @@ h4 {
   left: 350px;
   position: absolute;
 }
-.icon-footer {
-  display: flex;
+.icon-contactos {
   position: absolute;
-  top: 100px;
-  left: 150px;
+}
+.icon-footer {
   width: 20px;
   height: 20px;
+  display: flex;
 }
-.icon-instagram-2-1 {
-  width: 30px;
-  height: 30px;
-}
-
 /*Estilos portafolio*/
 
 .botones {
