@@ -286,7 +286,7 @@ svg {
   height: 81px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  color: rgba(175, 177, 184, 1);
+  color: red;
 }
 footer {
   background-color: #2f303a;
@@ -343,12 +343,7 @@ h4 {
 }
 .icon-contactos {
   position: absolute;
-}
-/*
-.icon-footer {
-  width: 20px;
-  height: 20px;
-  display: flex;
+  margin-left: 350px;
 }
 
 /*Estilos portafolio*/
