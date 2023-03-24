@@ -339,12 +339,11 @@ h4 {
 }
 .icon-contactos {
   display: flex;
-  left: 156px;
+  left: 516px;
   padding-top: 10px;
 }
 .icon-footer {
   fill: #ffffff;
-  justify-content: space-around;
 }
 
 /*Estilos portafolio*/
