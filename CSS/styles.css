@@ -271,7 +271,7 @@ svg {
   content: '\f111';
 }
 .icon-sectionteam:hover {
-  background-color: #2196f3;
+  background: #2196f3;
 }
 .tipo-clientes {
   display: flex;
@@ -339,8 +339,8 @@ h4 {
 }
 .icon-contactos {
   display: flex;
-  left: 516px;
-  padding-top: 10px;
+  position: relative;
+  left: 316px;
 }
 .icon-footer {
   fill: #ffffff;
