@@ -336,15 +336,15 @@ footer {
 }
 h4 {
   color: #ffffff;
+  margin-left: 350px;
 }
 .icon-contactos {
-  display: flex;
   position: relative;
-  left: 350px;
 }
 .icon-footer {
   fill: #ffffff;
   padding: 10px;
+  left: 350px;
 }
 
 /*Estilos portafolio*/
