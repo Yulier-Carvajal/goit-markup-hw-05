@@ -340,7 +340,7 @@ h4 {
 .icon-contactos {
   display: flex;
   position: relative;
-  left: 316px;
+  padding-left: 516px;
 }
 .icon-footer {
   fill: #ffffff;
