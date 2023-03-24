@@ -338,14 +338,13 @@ h4 {
   color: #ffffff;
 }
 .icon-contactos {
-  position: absolute;
+  display: flex;
   left: 156px;
   padding-top: 10px;
 }
 .icon-footer {
   fill: #ffffff;
   justify-content: space-around;
-  margin-right: 120px;
 }
 
 /*Estilos portafolio*/
