@@ -340,10 +340,11 @@ h4 {
 .icon-contactos {
   display: flex;
   position: relative;
-  padding-left: 516px;
+  left: 350px;
 }
 .icon-footer {
   fill: #ffffff;
+  padding: 10px;
 }
 
 /*Estilos portafolio*/
