@@ -286,11 +286,27 @@ svg {
   border-radius: 4px;
   fill: #757575;
 }
+.cliente4 {
+  fill: #2196f3;
+}
 footer {
   background-color: #2f303a;
   height: 252px;
   padding-top: 60px;
   padding-bottom: 60px;
+}
+h4 {
+  color: #ffffff;
+}
+.icon-contactos {
+  position: relative;
+  left: 350px;
+  top: 50px;
+}
+.icon-footer {
+  fill: #ffffff;
+  top: 20px;
+  margin-left: 10px;
 }
 .nav_contacto {
   color: #ffffff;
@@ -305,7 +321,6 @@ footer {
 }
 .contactos {
   word-spacing: 9px;
-  flex-direction: column;
 }
 .contact-correo {
   color: rgba(255, 255, 255, 0.6);
@@ -333,18 +348,6 @@ footer {
 }
 .equipo {
   display: inline-block;
-}
-h4 {
-  color: #ffffff;
-}
-.icon-contactos {
-  position: relative;
-  left: 350px;
-}
-.icon-footer {
-  fill: #ffffff;
-  top: 20px;
-  margin-left: 10px;
 }
 
 /*Estilos portafolio*/
