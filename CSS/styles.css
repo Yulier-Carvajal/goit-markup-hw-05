@@ -263,25 +263,24 @@ svg {
   width: 50px;
   height: 50px;
 }
-/*
 .icon-section {
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
   display: flex;
   justify-content: space-around;
   padding: 16px;
+  align-items: center;
+  color: #757575;
 }
 .icon-section > svg {
   cursor: pointer;
 }
-*/
 .tipo-clientes {
   display: flex;
   padding: 20px;
   padding-bottom: 50px;
   justify-content: space-around;
 }
-
 .icon-clientes {
   width: 170px;
   height: 81px;
@@ -289,7 +288,7 @@ svg {
   border-radius: 4px;
   color: rgba(175, 177, 184, 1);
 }
-*/ footer {
+footer {
   background-color: #2f303a;
   height: 252px;
   padding-top: 60px;
@@ -345,11 +344,13 @@ h4 {
 .icon-contactos {
   position: absolute;
 }
+/*
 .icon-footer {
   width: 20px;
   height: 20px;
   display: flex;
 }
+
 /*Estilos portafolio*/
 
 .botones {
