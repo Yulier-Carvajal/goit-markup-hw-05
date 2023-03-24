@@ -270,8 +270,8 @@ svg {
   align-items: center;
   fill: #757575;
 }
-.icon-section > svg {
-  cursor: pointer;
+.icon-sectionteam:hover {
+  background-color: #2196f3;
 }
 .tipo-clientes {
   display: flex;
@@ -336,12 +336,15 @@ footer {
 }
 h4 {
   color: #ffffff;
-  left: 350px;
+  left: 516px;
   position: absolute;
+  top: 72px;
 }
 .icon-contactos {
   position: absolute;
-  margin-left: 350px;
+  justify-content: space-around;
+  left: 516px;
+  top: 120px;
 }
 
 /*Estilos portafolio*/
