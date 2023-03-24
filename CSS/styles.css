@@ -252,7 +252,6 @@ p {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  align-items: center;
   text-align: center;
   padding: 20px;
 }
@@ -269,6 +268,7 @@ svg {
   padding: 16px;
   align-items: center;
   fill: #757575;
+  content: '\f111';
 }
 .icon-sectionteam:hover {
   background-color: #2196f3;
