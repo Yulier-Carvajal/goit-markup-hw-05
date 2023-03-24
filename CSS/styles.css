@@ -336,10 +336,10 @@ footer {
 }
 h4 {
   color: #ffffff;
-  position: absolute;
 }
 .icon-contactos {
   position: absolute;
+  left: 156px;
   padding-top: 10px;
 }
 .icon-footer {
