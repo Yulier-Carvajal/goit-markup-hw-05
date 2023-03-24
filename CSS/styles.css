@@ -260,17 +260,15 @@ p {
   text-align: center;
 }
 svg {
-  width: 50px;
-  height: 50px;
+  width: 20px;
+  height: 20px;
 }
 .icon-section {
-  width: 10px;
-  height: 10px;
   display: flex;
   justify-content: space-around;
   padding: 16px;
   align-items: center;
-  color: #757575;
+  fill: #757575;
 }
 .icon-section > svg {
   cursor: pointer;
@@ -286,7 +284,7 @@ svg {
   height: 81px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  color: red;
+  fill: #757575;
 }
 footer {
   background-color: #2f303a;
