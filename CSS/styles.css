@@ -282,6 +282,17 @@ p {
   background-color: #2196f3;
   color: #ffffff;
 }
+.icon-item-footer {
+  width: 44px;
+  height: 44px;
+  background-color: #ffffff;
+  color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .clientes {
   text-align: center;
   padding: 60px;
