@@ -126,7 +126,8 @@ a {
 
 .seccion-principal {
   height: 600px;
-  background: #2f303a url('../images/titulo.jpg');
+  background: linear-gradient(to bottom, #2f303a66, #2f303a66),
+    url('../images/titulo.jpg');
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -166,17 +167,26 @@ a {
   padding-bottom: 94px;
 }
 
+.img-section {
+  flex-basis: calc((100% - 30px) / 4);
+}
+.img-section h3 {
+  margin-top: 0%;
+}
+.img-section p {
+  margin: 0%;
+}
 .servicios-prestados {
-  width: 1200px;
   display: flex;
   color: rgba(117, 117, 117, 1);
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  align-items: center;
-  padding-bottom: 94px;
-  column-gap: 30px;
+  line-height: 24px;
+  gap: 30px;
+  padding-bottom: 99px;
 }
+
 .team-list {
   display: flex;
   gap: 30px;
@@ -191,8 +201,7 @@ h3 {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  margin-top: 20px;
-  margin-left: 24px;
+  padding: 10px;
 }
 
 h2 {
@@ -224,6 +233,22 @@ h2 {
 .img-work {
   width: 373.16px;
   height: 323.7px;
+  position: relative;
+}
+.text-imgwork {
+  position: absolute;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  bottom: 0px;
+  color: #ffffff;
+  width: 370px;
+  height: 70px;
+  padding: 27px;
+  background-color: rgba(47, 48, 58, 0.8);
 }
 .img-team {
   background: #ffffff;
@@ -297,6 +322,7 @@ p {
   background: #2196f3;
 }
 .clientes {
+  width: 1200px;
   text-align: center;
   padding: 60px;
 }
