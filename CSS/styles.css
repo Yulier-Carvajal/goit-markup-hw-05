@@ -49,7 +49,7 @@ ul {
 }
 
 svg {
-  color: currentColor;
+  fill: currentColor;
 }
 
 a {
@@ -113,7 +113,7 @@ a {
   fill: rgba(117, 117, 117, 1);
 }
 .icon-contactonav:hover {
-  color: #2196f3;
+  color: rgba(33, 150, 243, 1);
 }
 
 .contacto-item:hover {
@@ -264,10 +264,20 @@ p {
   padding: 16px;
   align-items: center;
   fill: #757575;
-  content: '\f111';
 }
 .icon-sectionteam:hover {
   background: #2196f3;
+}
+.icon-item {
+  width: 44px;
+  height: 44px;
+  background-color: #ffffff;
+  color: #afb1b8;
+  border-radius: 50%;
+}
+.icon-section:hover {
+  background-color: #2196f3;
+  color: #ffffff;
 }
 .tipo-clientes {
   display: flex;
