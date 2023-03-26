@@ -109,6 +109,9 @@ a {
   display: flex;
   gap: 8px;
 }
+.icon-contactonav {
+  fill: rgba(117, 117, 117, 1);
+}
 .icon-contactonav:hover {
   color: #2196f3;
 }
