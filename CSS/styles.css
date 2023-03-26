@@ -278,7 +278,7 @@ p {
   align-items: center;
   justify-content: center;
 }
-.icon-section:hover {
+.icon-item:hover {
   background-color: #2196f3;
   color: #ffffff;
 }
