@@ -103,18 +103,10 @@ a {
   font-weight: 500;
   font-size: 14px;
 }
-.img-contacto-item {
-  position: absolute;
-  left: 70.75%;
-  top: 5.8%;
-  bottom: 98.43%;
-  background: #2196f3;
-}
-.img-contacto-item2 {
-  position: absolute;
-  left: 84.69%;
-  top: 5.15%;
-  bottom: 98.36%;
+.icon-contactonav {
+  display: flex;
+  fill: #757575;
+  gap: 8px;
 }
 
 .contacto-item:hover {
