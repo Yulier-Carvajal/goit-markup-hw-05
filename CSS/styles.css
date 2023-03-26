@@ -48,9 +48,14 @@ ul {
   padding: 0%;
 }
 
+svg {
+  color: currentColor;
+}
+
 a {
   text-decoration: none;
   color: currentColor;
+  display: flex;
 }
 .header {
   height: 90px;
@@ -102,11 +107,15 @@ a {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
+  display: flex;
 }
 .icon-contactonav {
   display: flex;
   fill: #757575;
   gap: 8px;
+}
+.icon-contactonav:hover {
+  color: #2196f3;
 }
 
 .contacto-item:hover {
@@ -250,10 +259,7 @@ p {
 .profesion-team {
   text-align: center;
 }
-svg {
-  width: 20px;
-  height: 20px;
-}
+
 .icon-section {
   display: flex;
   justify-content: space-around;
