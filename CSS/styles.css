@@ -289,16 +289,6 @@ p {
   align-items: center;
   gap: 8px;
 }
-.icon-itemfooter {
-  width: 44px;
-  height: 44px;
-  background-color: rgba(255, 255, 255, 0.1);
-  color: #ffffff;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 .icon-itemfooter:hover {
   background-color: #2196f3;
   color: #ffffff;
@@ -335,22 +325,11 @@ footer {
   background-color: #2f303a;
   height: 252px;
   padding-top: 60px;
-  padding-bottom: 60px;
 }
 h4 {
   color: #ffffff;
 }
 
-.icon-contactos {
-  position: relative;
-  left: 350px;
-  top: 50px;
-}
-.icon-footer {
-  display: flex;
-  gap: 8px;
-  fill: #ffffff;
-}
 .nav_contacto {
   color: #ffffff;
   font-family: 'Roboto';
@@ -364,6 +343,14 @@ h4 {
 }
 .contactos {
   word-spacing: 9px;
+}
+.icon-footer {
+  width: 1200px;
+  position: absolute;
+  left: 400px;
+}
+.icon-sectionfooter {
+  position: relative;
 }
 .contact-correo {
   color: rgba(255, 255, 255, 0.6);
