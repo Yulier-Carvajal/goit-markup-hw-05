@@ -282,6 +282,16 @@ p {
   background-color: #2196f3;
   color: #ffffff;
 }
+.icon-sectionfooter {
+  display: flex;
+  padding: 16px;
+  fill: #ffffff;
+  align-items: center;
+  gap: 8px;
+}
+.icon-sectionteam:hover {
+  background: #2196f3;
+}
 .clientes {
   text-align: center;
   padding: 60px;
