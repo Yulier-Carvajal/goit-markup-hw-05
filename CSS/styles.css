@@ -271,8 +271,8 @@ p {
 .icon-item {
   width: 44px;
   height: 44px;
-  background-color: #ffffff;
-  color: #afb1b8;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
   border-radius: 50%;
   display: flex;
   align-items: center;
