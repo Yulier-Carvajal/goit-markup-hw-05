@@ -282,9 +282,18 @@ p {
   background-color: #2196f3;
   color: #ffffff;
 }
+.clientes {
+  text-align: center;
+  padding: 60px;
+}
 .tipo-clientes {
+  width: 1200px;
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 8px;
+  padding-top: 50px;
+  padding-bottom: 150px;
 }
 .icon-clientes {
   width: 170px;
@@ -292,6 +301,7 @@ p {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   fill: #757575;
+  padding: 20px;
 }
 .icon-clientes:hover {
   fill: #2196f3;
@@ -306,6 +316,7 @@ footer {
 h4 {
   color: #ffffff;
 }
+
 .icon-contactos {
   position: relative;
   left: 350px;
