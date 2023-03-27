@@ -259,6 +259,7 @@ p {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
+  text-align: justify;
 }
 .ubicacion {
   color: #ffffff;
@@ -519,11 +520,21 @@ h4 {
   gap: 30px;
   flex-basis: calc((100% - 30px) / 3);
   padding-bottom: 82px;
+  text-align: justify;
 }
-
+.img-servicios {
+  width: 370px;
+  height: 404px;
+  border: 1px solid #eeeeee;
+  border-radius: 2px;
+}
 .img-servicios:hover {
   background: #ffffff;
-  border: 1px solid #eee;
+  border: #2f303a;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.img-servof {
+  margin: 10px;
+  padding: 10px;
 }
