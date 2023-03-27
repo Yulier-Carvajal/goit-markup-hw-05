@@ -108,14 +108,13 @@ a {
   display: flex;
   gap: 8px;
 }
+.contacto-item:hover {
+  color: rgba(33, 150, 243, 1);
+}
 .icon-contactonav {
   fill: rgba(117, 117, 117, 1);
 }
 .icon-contactonav:hover {
-  color: rgba(33, 150, 243, 1);
-}
-
-.contacto-item:hover {
   color: rgba(33, 150, 243, 1);
 }
 
