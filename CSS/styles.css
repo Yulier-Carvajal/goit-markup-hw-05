@@ -105,17 +105,13 @@ a {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  display: flex;
   gap: 8px;
 }
 .contacto-item:hover {
-  color: rgba(33, 150, 243, 1);
+  color: #2196f3;
 }
 .icon-contactonav {
   fill: rgba(117, 117, 117, 1);
-}
-.icon-contactonav:hover {
-  color: rgba(33, 150, 243, 1);
 }
 
 .active {
