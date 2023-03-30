@@ -18,6 +18,12 @@
     />
   </head>
   <body>
+    <button data-modal-close>Abrir Modal</button>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button data-modal-close>Cerrar Modal</button>
+      </div>
+    </div>
     <header class="header">
       <div class="container encabezado">
         <nav class="nav-container">
@@ -316,5 +322,6 @@
         </div>
       </address>
     </footer>
+    <script src="./modal.js"></script>
   </body>
 </html>
