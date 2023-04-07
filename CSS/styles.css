@@ -1,3 +1,8 @@
+:root {
+  --brand-color: #2196f3;
+  --contact-color: #757575;
+}
+
 body {
   font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
@@ -89,11 +94,16 @@ a {
   gap: 50px;
 }
 .nav-item {
+  position: relative;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   color: #212121;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.nav-item:hover {
+  color: var(--brand-color);
 }
 .contact-list {
   display: flex;
@@ -106,6 +116,8 @@ a {
   font-weight: 500;
   font-size: 14px;
   gap: 8px;
+  color: var(--contact-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contacto-item:hover {
   color: #2196f3;
@@ -116,6 +128,17 @@ a {
 
 .active {
   color: rgba(33, 150, 243, 1);
+}
+.active::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -37px;
+  display: inline-block;
+  width: 100%;
+  height: 4px;
+  background-color: var(--brand-color);
+  border-radius: 2px;
 }
 
 .seccion-principal {
@@ -284,6 +307,8 @@ p {
   padding: 16px;
   align-items: center;
   fill: #757575;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-sectionteam:hover {
   background: #2196f3;
@@ -297,6 +322,8 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-item:hover {
   background-color: #2196f3;
@@ -308,6 +335,8 @@ p {
   fill: #ffffff;
   align-items: center;
   gap: 8px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-itemfooter:hover {
   background-color: #2196f3;
@@ -319,7 +348,6 @@ p {
 .clientes {
   width: 1200px;
   text-align: center;
-  padding: 60px;
 }
 .tipo-clientes {
   width: 1200px;
@@ -337,6 +365,8 @@ p {
   border-radius: 4px;
   fill: #757575;
   padding: 20px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-clientes:hover {
   fill: #2196f3;
@@ -381,6 +411,8 @@ h4 {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact-correo:hover {
   color: #2196f3;
@@ -393,6 +425,8 @@ h4 {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact-telefono:hover {
   color: #2196f3;
@@ -426,6 +460,8 @@ h4 {
   background: #2196f3;
   border-radius: 4px;
   border: 1px #2196f3;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .boton1:hover {
   background: rgba(33, 150, 243, 1);
@@ -446,6 +482,8 @@ h4 {
   background: #f5f4fa;
   border-radius: 4px;
   border: 1px #f5f4fa;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .boton2:hover {
   background: rgba(33, 150, 243, 1);
@@ -467,6 +505,8 @@ h4 {
   background: #f5f4fa;
   border-radius: 4px;
   border: 1px #f5f4fa;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .boton3:hover {
   background: rgba(33, 150, 243, 1);
@@ -488,6 +528,8 @@ h4 {
   background: #f5f4fa;
   border-radius: 4px;
   border: 1px #f5f4fa;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .boton4:hover {
   background: rgba(33, 150, 243, 1);
@@ -509,6 +551,8 @@ h4 {
   background: #f5f4fa;
   border-radius: 4px;
   border: 1px #f5f4fa;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .boton5:hover {
   background: rgba(33, 150, 243, 1);
@@ -527,6 +571,8 @@ h4 {
   height: 404px;
   border: 1px solid #eeeeee;
   border-radius: 2px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .img-servicios:hover {
   background: #ffffff;
@@ -555,17 +601,7 @@ h4 {
 .current {
   color: var(--accent-text-color);
 }
-.nav-item .link {
-  position: relative;
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  color: var(secundary-text-color);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  transition: color 250ms #2196f3 var(--cubic);
-}
+
 .modal {
   position: fixed;
   transform: translate(-50%, -50%);
@@ -588,6 +624,7 @@ h4 {
 }
 .backdrop {
   position: fixed;
+  z-index: 1;
   top: 0;
   width: 100%;
   height: 100vh;
