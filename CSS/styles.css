@@ -549,21 +549,24 @@ h4 {
   display: inline-block;
   width: 100%;
   height: 4px;
-  background-color: #2196f3 var(--accent-text-color);
+  background-color: var(--accent-text-color);
   border-radius: 2px;
 }
-.nav-list .link {
+.current {
+  color: var(--accent-text-color);
+}
+.nav-item .link {
   position: relative;
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
+  color: var(secundary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  transition: color 250ms var(--cubic);
+  transition: color 250ms #2196f3 var(--cubic);
 }
 .modal {
-  background-color: aliceblue;
   position: fixed;
   transform: translate(-50%, -50%);
   width: 528px;
@@ -585,12 +588,10 @@ h4 {
 }
 .backdrop {
   position: fixed;
-  left: 0;
   top: 0;
   width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.2);
-  transition: opacity 250ms var(--cubit), visibility 250ms var(--cubit);
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 .cerrarboton {
   box-sizing: border-box;
@@ -601,4 +602,38 @@ h4 {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   text-align: center;
+}
+.box {
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(33, 150, 243, 0.9);
+  transform: translatey(300px);
+  transition: transform 250ms ease;
+}
+
+.box:hover .overlay {
+  transform: translatex(0);
+}
+
+.overlay p {
+  color: #fff;
+  padding: 20px;
+  margin: 10px;
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
